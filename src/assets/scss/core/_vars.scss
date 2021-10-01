@@ -1,0 +1,46 @@
+//color
+@use "sass:math";
+
+$black: #333;
+$ligth-grey: #f2f2f2;
+$dark-grey: #999999;
+$grey: #e0e0e0;
+$danger: #dc3545;
+$green: #28a745;
+$white: #ffffff;
+
+//font
+$f-proxima-nova-rg: 'Montserrat', normal;
+$f-proxima-nova: Montserrat, "normal";
+
+//font-size
+$base-font-size: 16px;
+
+@function calcRem($size) {
+  $remSize: math.div($size, $base-font-size);
+  @return #{$remSize}rem;
+}
+
+$h160: calcRem(160px);
+$h68: calcRem(68px);
+$h56: calcRem(56px);
+$h48: calcRem(48px);
+$h44: calcRem(44px);
+$h40: calcRem(40px);
+$h36: calcRem(36px);
+$h33: calcRem(33px);
+$h31: calcRem(31px);
+$h28: calcRem(28px);
+$h26: calcRem(26px);
+$h24: calcRem(24px);
+$h22: calcRem(22px);
+$h20: calcRem(20px);
+$h19: calcRem(19px);
+$h18: calcRem(18px);
+$h16: calcRem(16px);
+$h14: calcRem(14px);
+$h15: calcRem(15px);
+$h12: calcRem(12px);
+$h13: calcRem(13px);
+$h10: calcRem(10px);
+// $h90: calcRem(90px);

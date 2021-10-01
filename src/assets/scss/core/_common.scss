@@ -1,0 +1,85 @@
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button,
+textarea,
+select {
+  border: none;
+}
+
+body {
+  min-width: 360px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a,
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  outline: none;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input[type='number']:hover::-webkit-inner-spin-button,
+input[type='number']:hover::-webkit-outer-spin-button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+#app {
+  min-height: 100%;
+}
+
+.container {
+  max-width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-right: 0;
+  margin-left: 0;
+}
